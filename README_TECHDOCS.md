@@ -1,9 +1,9 @@
 [![Package Status](https://github.com/bcgov/notify-techdocs/actions/workflows/publish.yaml/badge.svg)](https://github.com/bcgov/notify-techdocs/actions/workflows/publish.yaml)
 
 
-# notify
+# notification-common-service
 
-the government’s enterprise notification service for sending emails and SMS. With GC Notify being sunsetted, this repository provides guidance for implementing, configuring, and managing Notify.
+The Notify Common Service provides an API and administrative UI which allows webapps to simply send complex notifications to multiple channels (email, SMS, message channel)  
 
 ## About
 

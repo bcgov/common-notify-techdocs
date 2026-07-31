@@ -1,6 +1,6 @@
-# Notify
+# Notification Common Service
 
-the government’s enterprise notification service for sending emails and SMS. With GC Notify being sunsetted, this repository provides guidance for implementing, configuring, and managing Notify.
+The Notify Common Service provides an API and administrative UI which allows webapps to simply send complex notifications to multiple channels (email, SMS, message channel)  
 
 **This file is the homepage of your documentation. It is mandatory and must not be deleted.**
 

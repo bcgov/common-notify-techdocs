@@ -1,34 +1,16 @@
-site_name: "Notify"
-site_description: "the government's enterprise notification service for sending emails and SMS. With GC Notify being sunsetted, this repository provides guidance for implementing, configuring, and managing Notify."
+site_name: "Notification Common Service"
+site_description: "The Notify Common Service provides an API and administrative UI which allows webapps to simply send complex notifications to multiple channels (email, SMS, message channel)  "
 docs_dir: "docs"
 repo_url: "https://github.com/bcgov/notify-techdocs"
 edit_uri: edit/main/docs
 nav:
-  - Home: Home.md
-  - About:
-      - Overview: About/Overview.md
-      - Design Principles: About/Design-Principles.md
-      - Multi-Tenancy: About/Multi-Tenancy.md
-      - Roadmap: About/Roadmap.md
-      - Definition of Done: About/Definition-of-Done.md
-  - Capabilities:
-      - Functionalities: Capabilities/Functionalities.md
-      - Notification Management: Capabilities/Notification-Management.md
-      - Integrations: Capabilities/Integrations.md
-      - Architecture: Capabilities/Architecture.md
-      - Accessibility: Capabilities/Accessibility.md
-  - Components:
-      - Data Model: Components/Data-Model.md
-  - Developer:
-      - Getting Started: Developer/Getting-Started.md
-      - API Guide: Developer/API-Guide.md
-      - Attachments: Developer/Attachments.md
-      - Callbacks: Developer/Callbacks.md
-      - Subscriptions: Developer/Subscriptions.md
-      - Examples: Developer/Examples.md
+    - Introduction: index.md
+    - Getting started: getting-started.md
+    - Configuration: configuration.md
+    - Tips and tricks: tips-and-tricks.md
+    - About us: about-us.md
 plugins:
-  - techdocs-core
-  - git-revision-date-localized
+    - techdocs-core
+    - git-revision-date-localized
 markdown_extensions:
-  - md_in_html
-  
+    - md_in_html

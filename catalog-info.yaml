@@ -1,24 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: notify
-  title: Notify
-  description: the government’s enterprise notification service for sending emails
-    and SMS. With GC Notify being sunsetted, this repository provides guidance
-    for implementing, configuring, and managing Notify.
+  name: notification-common-service
+  title: Notification Common Service
+  description: "The Notify Common Service provides an API and administrative UI
+    which allows webapps to simply send complex notifications to multiple
+    channels (email, SMS, message channel)  "
   annotations:
     github.com/project-slug: bcgov/notify-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
     bcgovpubcode.gov.bc.ca/product_name: Notify
-    bcgovpubcode.gov.bc.ca/product_description: the government’s enterprise
-      notification service for sending emails and SMS. With GC Notify being
-      sunsetted, this repository provides guidance for implementing,
-      configuring, and managing Notify.
+    bcgovpubcode.gov.bc.ca/product_description: "The Notify Common Service provides
+      an API and administrative UI which allows webapps to simply send complex
+      notifications to multiple channels (email, SMS, message channel)  "
+    bcgovpubcode.gov.bc.ca/product_acronym: Notify
     bcgovpubcode.gov.bc.ca/product_owner: Duncan Strong
     bcgovpubcode.gov.bc.ca/hosting_platform: Private-Cloud-Openshift
     backstage.io/source-template: template:default/docs-template-pr
 spec:
-  type: documentation
+  type: service
   lifecycle: production
   owner: group:default/notify-techdocs-maintainers
