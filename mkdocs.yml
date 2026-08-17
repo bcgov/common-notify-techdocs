@@ -1,31 +1,60 @@
 site_name: "Notify"
-site_description: "the government's enterprise notification service for sending emails and SMS. With GC Notify being sunsetted, this repository provides guidance for implementing, configuring, and managing Notify."
+site_description: "BC Government Common Notify Service"
 docs_dir: "docs"
-repo_url: "https://github.com/bcgov/notify-techdocs"
+repo_url: "https://github.com/bcgov/common-notify-techdocs"
 edit_uri: edit/main/docs
 nav:
-  - Home: Home.md
-  - About:
-      - Overview: About/Overview.md
-      - Design Principles: About/Design-Principles.md
-      - Multi-Tenancy: About/Multi-Tenancy.md
-      - Roadmap: About/Roadmap.md
-      - Definition of Done: About/Definition-of-Done.md
-  - Capabilities:
-      - Functionalities: Capabilities/Functionalities.md
-      - Notification Management: Capabilities/Notification-Management.md
-      - Integrations: Capabilities/Integrations.md
-      - Architecture: Capabilities/Architecture.md
-      - Accessibility: Capabilities/Accessibility.md
-  - Components:
-      - Data Model: Components/Data-Model.md
-  - Developer:
-      - Getting Started: Developer/Getting-Started.md
-      - API Guide: Developer/API-Guide.md
-      - Attachments: Developer/Attachments.md
-      - Callbacks: Developer/Callbacks.md
-      - Subscriptions: Developer/Subscriptions.md
-      - Examples: Developer/Examples.md
+    - Home: README.md
+    - About:
+        - Overview: README.md#what-it-does
+        - Multi-Tenancy: README.md#multi-tenancy
+        - Design Principles: README.md#design-principles
+        - Cascading defaults and Event Types: README.md#flexibility-by-design-a-layered-defaults-system
+        - Configuration and administration:
+    - Roadmap: docs/About/Roadmap.md
+    - Capabilities:
+        - Extensibility and plugins: README.md#extensibility-and-plugins
+        - Tracking and status: README.md#tracking-and-status
+        - Preview: README.md#preview-before-sending
+        - Legacy API migration: README.md#legacy-api-compatibility
+        - Inbuilt templates: README.md#2-use-of-templates-and-parameter-substitution
+        - Notification Events: README.md#3-use-of-notification-events
+        - Mail Merge: README.md#4-mail-merge-bulk-send
+        - Eternal services:
+            - Overview:  
+            - Subscription:
+            - 3rd party messaging Applications:
+            - Attachment/document rendering:
+            - Templating: 
+    - Components:
+        - Data Model: Components/Data-Model.md
+        - Architecture: Capabilities/Architecture.md
+        - Accessibility: Capabilities/Accessibility.md
+    - Developer:
+        - Getting Started: Developer/Getting-Started.md
+        - API Guide: Developer/API-Guide.md
+        - Examples: 
+            - Simple email send: README.md#1-simple-send
+            - Simple combined SMS and email: README.md#12-same-as-11-except-add-sms
+            - Simple email with inline template: README.md#21-send-an-email-using--inline-templating
+            - Preview email with template, no send: README.md#22-preview-21
+            - Email with server template: README.md#23-send-an-email-using-a-server-template
+            - Email with inline attachments and delayed send: README.md#24-send-an-email-with-inline-attachments-at-a-specified--time
+            - Notification Event - send Email and SMS: README.md#31-send-a-notification-from-an-application-using-a-notification-event
+            - Notification Event - Preview: README.md#32-preview
+            - Notification Event - Override SMS settings: README.md#33-sms-overrides
+            - Notification Event - Override default template: README.md#34-template-overrides
+            - Augment Notification Event recipients: README.md#35-augment-recipients
+            - Mail-merge: README.md#41-send-a-simple-mail-merge-email
+            - Mail-merge - preview: README.md#42-preview-a-simple-mail-merge-email
+            - Message app (Teams): README.md#51-send-a-notification-to-a-teams-messaging-app
+            - Subscription service - Send email and SMS to users from a subscription service: README.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
+
+        - 3rd party Messaging Applications: README.md#messagingapp
+        - Subscription Services: 
+        - Template Services:
+        - Attachment Services:
+
 plugins:
   - techdocs-core
   - git-revision-date-localized
