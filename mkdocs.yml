@@ -10,9 +10,7 @@ nav:
         - Multi-Tenancy: README_REPO.md#multi-tenancy
         - Design Principles: README_REPO.md#design-principles
         - Cascading defaults and Event Types: README_REPO.md#flexibility-by-design-a-layered-defaults-system
-        - Configuration and administration: About/UI.md
-    - Roadmap: About/Roadmap.md
-    - Capabilities:
+    - Features:
         - Extensibility and plugins: README_REPO.md#extensibility-and-plugins
         - Tracking and status: README_REPO.md#tracking-and-status
         - Preview: README_REPO.md#preview-before-sending
@@ -20,19 +18,28 @@ nav:
         - Inbuilt templates: README_REPO.md#2-use-of-templates-and-parameter-substitution
         - Notification Events: README_REPO.md#3-use-of-notification-events
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
- #       - Eternal services:
-#            - Overview:  
-#            - Subscription:
- #           - 3rd party messaging Applications:
-#            - Attachment/document rendering:
-#            - Templating: 
-    - Components:
-        - Data Model: Components/Data-Model.md
-        - Architecture: Capabilities/Architecture.md
-        - Accessibility: Capabilities/Accessibility.md
+        - Centralised User Management: CSTAR.md
+        - Eternal services:
+            - Overview: README.md#5-services   
+            - Subscription: TODO.md
+            - 3rd party messaging Applications: TODO.md
+            - Attachment/document rendering: TODO.md
+            - Templating: TODO.md
+    - Configuration and administration: 
+        - Centralised Role administration: CSTAR.md
+        - Managing API Keys: TODO.md
+        - Notify UI: 
+            - Tenant settings: TODO.md
+            - Template management: TODO.md
+            - Monitoring and diagnostics: TODO.md
+            - Sending mail-merges: TODO.md
+            - Manging Event Types: TODO.md
+            - Configuring Services: TODO.md
     - Developer:
-        - Getting Started: Developer/Getting-Started.md
-        - API Guide: Developer/API-Guide.md
+        - Getting Started: TODO.md
+        - API Guide: 
+            - OpenAPI (Swagger) html: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/
+            - OpenAPI yaml: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/notify.yaml
         - Examples: 
             - Simple email send: README_REPO.md#1-simple-send
             - Simple combined SMS and email: README_REPO.md#12-same-as-11-except-add-sms
@@ -50,9 +57,12 @@ nav:
             - Message app (Teams): README_REPO.md#51-send-a-notification-to-a-teams-messaging-app
             - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
             - 3rd party Messaging Applications: README_REPO.md#messagingapp
-#        - Subscription Services: 
-#        - Template Services:
-#        - Attachment Services:
+    - Technical details:
+        - Data Model: TODO.md
+        - Architecture: Architecture.md
+        - Accessibility: TODO.md
+
+    - Roadmap: TODO.md
 
 plugins:
   - techdocs-core
