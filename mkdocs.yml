@@ -7,7 +7,7 @@ nav:
   - Home: Home.md
   - About:
       - Overview: About/Overview.md
-      - Design Principles: About/Design-Principles.md#1
+      - Design Principles: 
       - Multi-Tenancy: About/Multi-Tenancy.md
       - Roadmap: About/Roadmap.md
       - Definition of Done: About/Definition-of-Done.md
