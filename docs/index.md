@@ -1,1 +1,1 @@
-![[README_REPO.md]]
+--8<-- "README_REPO.md"

@@ -20,7 +20,7 @@ nav:
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
         - Centralised User Management: CSTAR.md
         - External services:
-            - Overview: README.md#5-services   
+            - Overview: README_REPO.md#5-services   
             - Subscription: TODO.md
             - 3rd party messaging Applications: TODO.md
             - Attachment/document rendering: TODO.md
@@ -59,7 +59,7 @@ nav:
             - Mail-merge: README_REPO.md#41-send-a-simple-mail-merge-email
             - Mail-merge - preview: README_REPO.md#42-preview-a-simple-mail-merge-email
             - Message app (Teams): README_REPO.md#51-send-a-notification-to-a-teams-messaging-app
-            - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
+#            - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
             - 3rd party Messaging Applications: README_REPO.md#messagingapp
     - Technical details:
         - Data Model: TODO.md
