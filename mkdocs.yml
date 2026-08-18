@@ -4,7 +4,7 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/common-notify-techdocs"
 edit_uri: edit/main/docs
 nav:
-    - Home: README_REPO.md
+#    - Home: README_REPO.md
     - About:
         - Overview: README_REPO.md#what-it-does
         - Multi-Tenancy: README_REPO.md#multi-tenancy
@@ -24,17 +24,21 @@ nav:
             - Subscription: TODO.md
             - 3rd party messaging Applications: TODO.md
             - Attachment/document rendering: TODO.md
-            - Templating: TODO.md
-    - Configuration and administration: 
+            - Advanced Templating: TODO.md
+    - Configuration: 
+        - Adding notify to your tenant: CSTAR.md
+        - Adding an API Key: TODO.md
+        - Notify UI: 
+            - Tenant settings: TODO.md
+            - Configuring Event Types: TODO.md
+            - Configuring Services: TODO.md
+    - Administration: 
         - Centralised Role administration: CSTAR.md
         - Managing API Keys: TODO.md
         - Notify UI: 
-            - Tenant settings: TODO.md
             - Template management: TODO.md
             - Monitoring and diagnostics: TODO.md
             - Sending mail-merges: TODO.md
-            - Manging Event Types: TODO.md
-            - Configuring Services: TODO.md
     - Developer:
         - Getting Started: TODO.md
         - API Guide: 

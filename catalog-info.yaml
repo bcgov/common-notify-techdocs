@@ -3,18 +3,17 @@ kind: Component
 metadata:
   name: notify
   title: Notify
-  description: the government’s enterprise notification service for sending emails
-    and SMS. With GC Notify being sunsetted, this repository provides guidance
-    for implementing, configuring, and managing Notify.
+  description: Notify is the BC Gov Common Notification platform for 
+      email, SMS and 3rd party message channels. This is the full documentation for the product 
+
   annotations:
     github.com/project-slug: bcgov/notify-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
     bcgovpubcode.gov.bc.ca/product_name: Notify
-    bcgovpubcode.gov.bc.ca/product_description: the government’s enterprise
-      notification service for sending emails and SMS. With GC Notify being
-      sunsetted, this repository provides guidance for implementing,
-      configuring, and managing Notify.
+    bcgovpubcode.gov.bc.ca/product_description: Notify is the BC Gov Common Notification platform for 
+      email, SMS and 3rd party message channels. It is designed to replace all existing Notification services 
+      used in BC Government, including GC Notify
     bcgovpubcode.gov.bc.ca/product_owner: Duncan Strong
     bcgovpubcode.gov.bc.ca/hosting_platform: Private-Cloud-Openshift
     backstage.io/source-template: template:default/docs-template-pr

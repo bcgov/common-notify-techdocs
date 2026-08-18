@@ -1,2 +1,2 @@
-# TODO
-Placeholder for documentation which needs to be created
+# CSTAR
+Placeholder for CSTAR documentation 
