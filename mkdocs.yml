@@ -57,6 +57,6 @@ nav:
 plugins:
   - techdocs-core
   - git-revision-date-localized
-  - mkdocs-callouts
+#  - mkdocs-callouts
 markdown_extensions:
   - md_in_html
