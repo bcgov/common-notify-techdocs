@@ -19,7 +19,7 @@ nav:
         - Notification Events: README_REPO.md#3-use-of-notification-events
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
         - Centralised User Management: CSTAR.md
-        - Eternal services:
+        - External services:
             - Overview: README.md#5-services   
             - Subscription: TODO.md
             - 3rd party messaging Applications: TODO.md
