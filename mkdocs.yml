@@ -33,23 +33,23 @@ nav:
     - Developer:
         - Getting Started: Developer/Getting-Started.md
         - API Guide: Developer/API-Guide.md
-    - Examples: 
-        - Simple email send: README_REPO.md#1-simple-send
-        - Simple combined SMS and email: README_REPO.md#12-same-as-11-except-add-sms
-        - Simple email with inline template: README_REPO.md#21-send-an-email-using--inline-templating
-        - Preview email with template, no send: README_REPO.md#22-preview-21
-        - Email with server template: README_REPO.md#23-send-an-email-using-a-server-template
-        - Email with inline attachments and delayed send: README_REPO.md#24-send-an-email-with-inline-attachments-at-a-specified--time
-        - Notification Event - send Email and SMS: README_REPO.md#31-send-a-notification-from-an-application-using-a-notification-event
-        - Notification Event - Preview: README_REPO.md#32-preview
-        - Notification Event - Override SMS settings: README_REPO.md#33-sms-overrides
-        - Notification Event - Override default template: README_REPO.md#34-template-overrides
-        - Augment Notification Event recipients: README_REPO.md#35-augment-recipients
-        - Mail-merge: README_REPO.md#41-send-a-simple-mail-merge-email
-        - Mail-merge - preview: README_REPO.md#42-preview-a-simple-mail-merge-email
-        - Message app (Teams): README_REPO.md#51-send-a-notification-to-a-teams-messaging-app
-        - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
-        - 3rd party Messaging Applications: README_REPO.md#messagingapp
+        - Examples: 
+            - Simple email send: README_REPO.md#1-simple-send
+            - Simple combined SMS and email: README_REPO.md#12-same-as-11-except-add-sms
+            - Simple email with inline template: README_REPO.md#21-send-an-email-using--inline-templating
+            - Preview email with template, no send: README_REPO.md#22-preview-21
+            - Email with server template: README_REPO.md#23-send-an-email-using-a-server-template
+            - Email with inline attachments and delayed send: README_REPO.md#24-send-an-email-with-inline-attachments-at-a-specified--time
+            - Notification Event - send Email and SMS: README_REPO.md#31-send-a-notification-from-an-application-using-a-notification-event
+            - Notification Event - Preview: README_REPO.md#32-preview
+            - Notification Event - Override SMS settings: README_REPO.md#33-sms-overrides
+            - Notification Event - Override default template: README_REPO.md#34-template-overrides
+            - Augment Notification Event recipients: README_REPO.md#35-augment-recipients
+            - Mail-merge: README_REPO.md#41-send-a-simple-mail-merge-email
+            - Mail-merge - preview: README_REPO.md#42-preview-a-simple-mail-merge-email
+            - Message app (Teams): README_REPO.md#51-send-a-notification-to-a-teams-messaging-app
+            - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
+            - 3rd party Messaging Applications: README_REPO.md#messagingapp
 #        - Subscription Services: 
 #        - Template Services:
 #        - Attachment Services:
@@ -57,5 +57,6 @@ nav:
 plugins:
   - techdocs-core
   - git-revision-date-localized
+  - mkdocs-callouts
 markdown_extensions:
   - md_in_html
