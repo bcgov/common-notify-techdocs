@@ -21,7 +21,7 @@ nav:
         - Centralised User Management: CSTAR.md
         - External services:
             - Overview: README_REPO.md#5-services   
-            - Subscription: TODO.md
+#            - Subscription: TODO.md
             - 3rd party messaging Applications: TODO.md
             - Attachment/document rendering: TODO.md
             - Advanced Templating: TODO.md
