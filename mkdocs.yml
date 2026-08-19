@@ -6,7 +6,7 @@ edit_uri: edit/main/docs
 nav:
     - Home: README_REPO.md
     - About:
-        - Overview: README_REPO.md#what-it-does
+        - Overview: /README_REPO/#what-it-does
         - Multi-Tenancy: README_REPO.md#multi-tenancy
         - Design Principles: README_REPO.md#design-principles
         - Cascading defaults and Event Types: README_REPO.md#flexibility-by-design-a-layered-defaults-system
@@ -26,10 +26,10 @@ nav:
             - Attachment/document rendering: Services.md#render-and-attach
             - Advanced Templating: Services.md#advanced-templating
     - Configuration: 
-        - Adding notify to your tenant: CSTAR.md#adding-services-to-a-tenant
+        - Adding notify to your tenant: /CSTAR/#adding-services-to-a-tenant
         - Adding an API Key: CSTAR.md#adding-an-api-key
         - Notify UI: 
-            - Tenant settings: UI.md#tenant-settings
+            - Tenant settings: /UI/#tenant-settings
             - Configuring Event Types: UI.md#event-types
             - Configuring Services: UI.md#configuring-services
     - Administration: 
