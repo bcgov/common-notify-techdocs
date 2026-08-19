@@ -7,60 +7,60 @@ nav:
     - Home: README_REPO.md
     - About:
         - Overview: ./README_REPO/#what-it-does
-        - Multi-Tenancy: README_REPO.md#multi-tenancy
-        - Design Principles: README_REPO.md#design-principles
-        - Cascading defaults and Event Types: README_REPO.md#flexibility-by-design-a-layered-defaults-system
+        - Multi-Tenancy: ././README_REPO/#multi-tenancy
+        - Design Principles: ./README_REPO/#design-principles
+        - Cascading defaults and Event Types: ./README_REPO/#flexibility-by-design-a-layered-defaults-system
     - Features:
-        - Extensibility and plugins: README_REPO.md#extensibility-and-plugins
-        - Tracking and status: README_REPO.md#tracking-and-status
-        - Preview: README_REPO.md#preview-before-sending
-        - Legacy API migration: README_REPO.md#legacy-api-compatibility
-        - Inbuilt templates: README_REPO.md#2-use-of-templates-and-parameter-substitution
-        - Notification Events: README_REPO.md#3-use-of-notification-events
-        - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
-        - Centralised User Management: CSTAR.md
+        - Extensibility and plugins: ./README_REPO/#extensibility-and-plugins
+        - Tracking and status: ./README_REPO/#tracking-and-status
+        - Preview: ./README_REPO/#preview-before-sending
+        - Legacy API migration: ./README_REPO/#legacy-api-compatibility
+        - Inbuilt templates: ./README_REPO/#2-use-of-templates-and-parameter-substitution
+        - Notification Events: ./README_REPO/#3-use-of-notification-events
+        - Mail Merge: ./README_REPO/#4-mail-merge-bulk-send
+        - Centralised User Management: ./CSTAR.md/#users-and-roles
         - External services:
-            - Overview: README_REPO.md#5-services   
-            - Subscription: Services.md#subscription-services
-            - 3rd party messaging Applications: Services.md#3rd-party-messaging-apps
-            - Attachment/document rendering: Services.md#render-and-attach
-            - Advanced Templating: Services.md#advanced-templating
+            - Overview: ./README_REPO/#5-services   
+            - Subscription: ./Services/#subscription-services
+            - 3rd party messaging Applications: ./Services/#3rd-party-messaging-apps
+            - Attachment/document rendering: ./Services/#render-and-attach
+            - Advanced Templating: ./Services/#advanced-templating
     - Configuration: 
         - Adding notify to your tenant: ./CSTAR/#adding-services-to-a-tenant
-        - Adding an API Key: CSTAR.md#adding-an-api-key
+        - Adding an API Key: ./CSTAR/#adding-an-api-key
         - Notify UI: 
             - Tenant settings: ./UI/#tenant-settings
-            - Configuring Event Types: UI.md#event-types
-            - Configuring Services: UI.md#configuring-services
+            - Configuring Event Types: ./UI/#event-types
+            - Configuring Services: ./UI/#configuring-services
     - Administration: 
-        - Centralised Role administration: CSTAR.md#administering-users
-        - Managing API Keys: CSTAR.md#managing-api-keys
+        - Centralised Role administration: ./CSTAR/#administering-users
+        - Managing API Keys: ./CSTAR/#managing-api-keys
         - Notify UI: 
-            - Template management: UI.md#managing-templates
-            - Monitoring and diagnostics: UI.md#monitoring-and-diagnostics
-            - Sending mail-merges: UI.md#sending-mail-merge
+            - Template management: ./UI/#managing-templates
+            - Monitoring and diagnostics: ./UI/#monitoring-and-diagnostics
+            - Sending mail-merges: ./UI/#sending-mail-merge
     - Developer:
         - Getting Started: getting-started.md
         - API Guide: 
             - OpenAPI (Swagger) html: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/
             - OpenAPI yaml: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/notify.yaml
         - Examples: 
-            - Simple email send: README_REPO.md#1-simple-send
-            - Simple combined SMS and email: README_REPO.md#12-same-as-11-except-add-sms
-            - Simple email with inline template: README_REPO.md#21-send-an-email-using--inline-templating
-            - Preview email with template, no send: README_REPO.md#22-preview-21
-            - Email with server template: README_REPO.md#23-send-an-email-using-a-server-template
-            - Email with inline attachments and delayed send: README_REPO.md#24-send-an-email-with-inline-attachments-at-a-specified--time
-            - Notification Event - send Email and SMS: README_REPO.md#31-send-a-notification-from-an-application-using-a-notification-event
-            - Notification Event - Preview: README_REPO.md#32-preview
-            - Notification Event - Override SMS settings: README_REPO.md#33-sms-overrides
-            - Notification Event - Override default template: README_REPO.md#34-template-overrides
-            - Augment Notification Event recipients: README_REPO.md#35-augment-recipients
-            - Mail-merge: README_REPO.md#41-send-a-simple-mail-merge-email
-            - Mail-merge - preview: README_REPO.md#42-preview-a-simple-mail-merge-email
-            - Message app (Teams): README_REPO.md#51-send-a-notification-to-a-teams-messaging-app
-#            - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
-            - 3rd party Messaging Applications: README_REPO.md#messagingapp
+            - Simple email send: ./README_REPO/#1-simple-send
+            - Simple combined SMS and email: ./README_REPO/#12-same-as-11-except-add-sms
+            - Simple email with inline template: ./README_REPO/#21-send-an-email-using--inline-templating
+            - Preview email with template, no send: ./README_REPO/#22-preview-21
+            - Email with server template: ./README_REPO/#23-send-an-email-using-a-server-template
+            - Email with inline attachments and delayed send: ./README_REPO/#24-send-an-email-with-inline-attachments-at-a-specified--time
+            - Notification Event - send Email and SMS: ./README_REPO/#31-send-a-notification-from-an-application-using-a-notification-event
+            - Notification Event - Preview: ./README_REPO/#32-preview
+            - Notification Event - Override SMS settings: ./README_REPO/#33-sms-overrides
+            - Notification Event - Override default template: ./README_REPO/#34-template-overrides
+            - Augment Notification Event recipients: ./README_REPO/#35-augment-recipients
+            - Mail-merge: ./README_REPO/#41-send-a-simple-mail-merge-email
+            - Mail-merge - preview: ./README_REPO/#42-preview-a-simple-mail-merge-email
+            - Message app (Teams): ./README_REPO/#51-send-a-notification-to-a-teams-messaging-app
+#            - Subscription service - Send email and SMS to users from a subscription service: ./README_REPO/#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
+            - 3rd party Messaging Applications: ./README_REPO/#messagingapp
     - Technical details:
         - Data Model: data-model.md
         - Architecture: Architecture.md
