@@ -1,3 +1,6 @@
+--8<-- "https://github.com/bcgov/tenant-management-system/blob/main/docs-site/docs/connected-service-integration/connected-service-setup.md"
+
+
 # CSTAR
 
 Placeholder for CSTAR documentation 
@@ -12,7 +15,6 @@ Link to CSTAR doc
 
 ## Adding Services to a Tenant
 
---8<-- "https://github.com/bcgov/tenant-management-system/blob/main/docs-site/docs/connected-service-integration/connected-service-setup.md"
 
 ## Adding an API Key
 
