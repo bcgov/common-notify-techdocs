@@ -10,6 +10,7 @@ nav:
         - Multi-Tenancy: ./README_REPO/#multi-tenancy
         - Design Principles: ./README_REPO/#design-principles
         - Cascading defaults and Event Types: ./README_REPO/#flexibility-by-design-a-layered-defaults-system
+        - New menu item: tips-and-tricks.md
     - Features:
         - Extensibility and plugins: ./README_REPO/#extensibility-and-plugins
         - Tracking and status: ./README_REPO/#tracking-and-status
