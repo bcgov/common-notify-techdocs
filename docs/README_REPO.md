@@ -1,8 +1,5 @@
 # Notify Service — Overview
 
-**version 4**
-
-***[ Swagger API Spec](https://citz-do.atlassian.net/wiki/spaces/CCP/pages/657719331/Notification+API+definition)***
 
 ## What it does
 
