@@ -18,7 +18,7 @@ nav:
         - Inbuilt templates: README_REPO.md#2-use-of-templates-and-parameter-substitution
         - Notification Events: README_REPO.md#3-use-of-notification-events
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
-        - Centralised User Management: CSTAR.md#users-and-roles
+        - Centralised User Management: CSTAR.md
         - External services:
             - Overview: README_REPO.md#5-services   
             - Subscription: Services.md#subscription-services
