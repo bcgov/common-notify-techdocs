@@ -6,6 +6,10 @@ Placeholder for CSTAR documentation
 
 Link to CSTAR doc
 
+## Administering Users
+
+Link to CSTAR doc
+
 ## Adding Services to a Tenant
 
 Link to CSTAR doc

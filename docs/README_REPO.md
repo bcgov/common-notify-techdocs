@@ -301,7 +301,7 @@ POST to /notifysimple
 
 ### 2. Use of templates and parameter substitution
 
-#### 2.1 Send an email using  inline templating
+#### 2.1 Send an email using inline templating
 
 Add templated content and email addresses using the "handlebars" templating engine (double curly braces) , add parameter substitution
 
@@ -426,7 +426,7 @@ Create a template using the template UI - say "Sample template". The template mi
 > - If "/preview" were appended to the URL the result would be the same as 2.2
 > - Previews of templates are supported in the Admin UI.
 
-#### 2.4 Send an email with inline attachments at a specified  time
+#### 2.4 Send an email with inline attachments at a specified time
 
 Extend 2.3 with inline base64 encoded attachments and delayed send
 

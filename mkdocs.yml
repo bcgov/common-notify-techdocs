@@ -7,7 +7,7 @@ nav:
     - Home: README_REPO.md
     - About:
         - Overview: ./README_REPO/#what-it-does
-        - Multi-Tenancy: ././README_REPO/#multi-tenancy
+        - Multi-Tenancy: ./README_REPO/#multi-tenancy
         - Design Principles: ./README_REPO/#design-principles
         - Cascading defaults and Event Types: ./README_REPO/#flexibility-by-design-a-layered-defaults-system
     - Features:
@@ -18,7 +18,7 @@ nav:
         - Inbuilt templates: ./README_REPO/#2-use-of-templates-and-parameter-substitution
         - Notification Events: ./README_REPO/#3-use-of-notification-events
         - Mail Merge: ./README_REPO/#4-mail-merge-bulk-send
-        - Centralised User Management: ./CSTAR.md/#users-and-roles
+        - Centralised User Management: ./CSTAR/#users-and-roles
         - External services:
             - Overview: ./README_REPO/#5-services   
             - Subscription: ./Services/#subscription-services
@@ -47,10 +47,10 @@ nav:
         - Examples: 
             - Simple email send: ./README_REPO/#1-simple-send
             - Simple combined SMS and email: ./README_REPO/#12-same-as-11-except-add-sms
-            - Simple email with inline template: ./README_REPO/#21-send-an-email-using--inline-templating
+            - Simple email with inline template: ./README_REPO/#21-send-an-email-using-inline-templating
             - Preview email with template, no send: ./README_REPO/#22-preview-21
             - Email with server template: ./README_REPO/#23-send-an-email-using-a-server-template
-            - Email with inline attachments and delayed send: ./README_REPO/#24-send-an-email-with-inline-attachments-at-a-specified--time
+            - Email with inline attachments and delayed send: ./README_REPO/#24-send-an-email-with-inline-attachments-at-a-specified-time
             - Notification Event - send Email and SMS: ./README_REPO/#31-send-a-notification-from-an-application-using-a-notification-event
             - Notification Event - Preview: ./README_REPO/#32-preview
             - Notification Event - Override SMS settings: ./README_REPO/#33-sms-overrides

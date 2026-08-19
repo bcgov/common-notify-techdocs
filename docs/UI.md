@@ -4,7 +4,7 @@ Placeholder for UI documentation
 Add images and text
 ## Event Types
 Add images and text
-## Configuring Servces
+## Configuring Services
 Add images and text
 ## Administering Services
 Add images and text
