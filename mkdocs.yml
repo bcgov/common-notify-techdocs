@@ -4,7 +4,7 @@ docs_dir: "docs"
 repo_url: "https://github.com/bcgov/common-notify-techdocs"
 edit_uri: edit/main/docs
 nav:
-#    - Home: README_REPO.md
+    - Home: README_REPO.md
     - About:
         - Overview: README_REPO.md#what-it-does
         - Multi-Tenancy: README_REPO.md#multi-tenancy
@@ -18,29 +18,29 @@ nav:
         - Inbuilt templates: README_REPO.md#2-use-of-templates-and-parameter-substitution
         - Notification Events: README_REPO.md#3-use-of-notification-events
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
-        - Centralised User Management: CSTAR.md
+        - Centralised User Management: CSTAR.md#1
         - External services:
             - Overview: README_REPO.md#5-services   
-#            - Subscription: TODO.md
-            - 3rd party messaging Applications: TODO.md
-            - Attachment/document rendering: TODO.md
-            - Advanced Templating: TODO.md
+            - Subscription: Services.md
+            - 3rd party messaging Applications: Services.md#1
+            - Attachment/document rendering: Services.md#2
+            - Advanced Templating: Services.md#3
     - Configuration: 
-        - Adding notify to your tenant: CSTAR.md
-        - Adding an API Key: TODO.md
+        - Adding notify to your tenant: CSTAR.md#2
+        - Adding an API Key: CSTAR.md#3
         - Notify UI: 
-            - Tenant settings: TODO.md
-            - Configuring Event Types: TODO.md
-            - Configuring Services: TODO.md
+            - Tenant settings: UI.md#1
+            - Configuring Event Types: UI.md#2
+            - Configuring Services: UI.md#3
     - Administration: 
-        - Centralised Role administration: CSTAR.md
-        - Managing API Keys: TODO.md
+        - Centralised Role administration: CSTAR.md#5
+        - Managing API Keys: CSTAR.md#6
         - Notify UI: 
-            - Template management: TODO.md
-            - Monitoring and diagnostics: TODO.md
-            - Sending mail-merges: TODO.md
+            - Template management: UI.md#4
+            - Monitoring and diagnostics: UI.md#5
+            - Sending mail-merges: UI.md#6
     - Developer:
-        - Getting Started: TODO.md
+        - Getting Started: getting-started.md
         - API Guide: 
             - OpenAPI (Swagger) html: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/
             - OpenAPI yaml: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/notify.yaml
@@ -62,11 +62,11 @@ nav:
 #            - Subscription service - Send email and SMS to users from a subscription service: README_REPO.md#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
             - 3rd party Messaging Applications: README_REPO.md#messagingapp
     - Technical details:
-        - Data Model: TODO.md
+        - Data Model: data-model.md
         - Architecture: Architecture.md
-        - Accessibility: TODO.md
+#        - Accessibility: TODO.md
 
-    - Roadmap: TODO.md
+    - Roadmap: roadmap.md
 
 plugins:
   - techdocs-core
