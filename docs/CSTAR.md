@@ -1,4 +1,4 @@
---8<-- "https://github.com/bcgov/tenant-management-system/blob/main/docs-site/docs/connected-service-integration/connected-service-setup.md"
+--8<-- "https://raw.githubusercontent.com/bcgov/tenant-management-system/refs/heads/main/docs-site/docs/connected-service-integration/connected-service-setup.md"
 
 
 # CSTAR
