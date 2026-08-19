@@ -18,27 +18,27 @@ nav:
         - Inbuilt templates: README_REPO.md#2-use-of-templates-and-parameter-substitution
         - Notification Events: README_REPO.md#3-use-of-notification-events
         - Mail Merge: README_REPO.md#4-mail-merge-bulk-send
-        - Centralised User Management: CSTAR.md#1
+        - Centralised User Management: CSTAR.md#users-and-roles
         - External services:
             - Overview: README_REPO.md#5-services   
-            - Subscription: Services.md
-            - 3rd party messaging Applications: Services.md#1
-            - Attachment/document rendering: Services.md#2
-            - Advanced Templating: Services.md#3
+            - Subscription: Services.md#subscription-services
+            - 3rd party messaging Applications: Services.md#3rd-party-messaging-apps
+            - Attachment/document rendering: Services.md#render-and-attach
+            - Advanced Templating: Services.md#advanced-templating
     - Configuration: 
-        - Adding notify to your tenant: CSTAR.md#2
-        - Adding an API Key: CSTAR.md#3
+        - Adding notify to your tenant: CSTAR.md#adding-services-to-a-tenant
+        - Adding an API Key: CSTAR.md#adding-an-api-key
         - Notify UI: 
-            - Tenant settings: UI.md#1
-            - Configuring Event Types: UI.md#2
-            - Configuring Services: UI.md#3
+            - Tenant settings: UI.md#tenant-settings
+            - Configuring Event Types: UI.md#event-types
+            - Configuring Services: UI.md#configuring-services
     - Administration: 
-        - Centralised Role administration: CSTAR.md#5
-        - Managing API Keys: CSTAR.md#6
+        - Centralised Role administration: CSTAR.md#administering-users
+        - Managing API Keys: CSTAR.md#managing-api-keys
         - Notify UI: 
-            - Template management: UI.md#4
-            - Monitoring and diagnostics: UI.md#5
-            - Sending mail-merges: UI.md#6
+            - Template management: UI.md#managing-templates
+            - Monitoring and diagnostics: UI.md#monitoring-and-diagnostics
+            - Sending mail-merges: UI.md#sending-mail-merge
     - Developer:
         - Getting Started: getting-started.md
         - API Guide: 
