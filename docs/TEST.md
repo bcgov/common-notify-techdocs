@@ -1,1 +1,1 @@
---8<-- "README_REPO.md"
+--8<-- "https://raw.githubusercontent.com/bcgov/common-notify-techdocs/refs/heads/main/docs/README_REPO.md"
