@@ -67,7 +67,6 @@ nav:
 #        - Accessibility: TODO.md
 
     - Roadmap: roadmap.md
-    - Test: ./TEST/#messagingapp
 
 plugins:
   - techdocs-core
