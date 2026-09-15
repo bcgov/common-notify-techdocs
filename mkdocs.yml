@@ -42,8 +42,8 @@ nav:
     - Developer:
         - Getting Started: getting-started.md
         - API Guide: 
-            - OpenAPI (Swagger) html: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/
-            - OpenAPI yaml: https://common-notify-dev.apps.silver.devops.gov.bc.ca/api-docs/notify.yaml
+            - OpenAPI (Swagger) html: https://notify.digital.gov.bc.ca/api/docs
+            - OpenAPI yaml: https://notify.digital.gov.bc.ca/api/docs-yaml
         - Examples: 
             - Simple email send: ./README_REPO/#1-simple-send
             - Simple combined SMS and email: ./README_REPO/#12-same-as-11-except-add-sms
