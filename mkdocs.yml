@@ -14,7 +14,7 @@ nav:
         - Extensibility and plugins: ./README_REPO/#extensibility-and-plugins
         - Tracking and status: ./README_REPO/#tracking-and-status
         - Preview: ./README_REPO/#preview-before-sending
-        - Legacy API migration: ./README_REPO/#legacy-api-compatibility
+        - Legacy API migration: ./README_REPO/#gc-notify-api-compatibility
         - Inbuilt templates: ./README_REPO/#2-use-of-templates-and-parameter-substitution
         - Notification Events: ./README_REPO/#3-use-of-notification-events
         - Mail Merge: ./README_REPO/#4-mail-merge-bulk-send
