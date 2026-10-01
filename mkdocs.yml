@@ -10,6 +10,8 @@ nav:
         - Multi-Tenancy: ./README_REPO/#multi-tenancy
         - Design Principles: ./README_REPO/#design-principles
         - Cascading defaults and Event Types: ./README_REPO/#flexibility-by-design-a-layered-defaults-system
+    - Onboarding:
+        - Self-Service Onboarding Quick Guide: ./Onboarding/onboarding-guide.md
     - Features:
         - Extensibility and plugins: ./README_REPO/#extensibility-and-plugins
         - Tracking and status: ./README_REPO/#tracking-and-status
