@@ -64,7 +64,7 @@ nav:
 #            - Subscription service - Send email and SMS to users from a subscription service: ./README_REPO/#52-send-a-notification-to-email-and-sms-users-subscribed-to-a-regional-alert-service
             - 3rd party Messaging Applications: ./README_REPO/#messagingapp
     - Technical details:
-        - Data Model: data-model.md
+        - Data Model: https://bcgov.github.io/common-notify/notify/relationships.html
         - Architecture: Architecture.md
 #        - Accessibility: TODO.md
 
