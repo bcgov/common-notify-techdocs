@@ -1,2 +1,1 @@
-# Data Model
-Placeholder for data model image
+--8<-- "https://bcgov.github.io/common-notify/notify/relationships.html"
