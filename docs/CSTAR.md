@@ -1,8 +1,7 @@
 
 # CSTAR
 
---8<-- "https://raw.githubusercontent.com/bcgov/tenant-management-system/refs/heads/main/docs-site/docs/overview/how-cstar-works.md"
-
+CSTAR (Connected Services, Team Access, and Roles) helps BC Government ministries securely manage access to digital services. It allows teams to organize users, assign roles, and ensure people have the appropriate permissions to access services based on their responsibilities.
 
 ## Users and Roles
 
