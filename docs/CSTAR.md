@@ -8,11 +8,11 @@
 
 Create a group to manage access for multiple users at once. Enter a Group Name and Group Description, then select Add me as a user to this group if you want to be added to the group. Select Submit to create the group.
 
-![Users and Roles](/Images/CSTAR/Users-and-Roles-1.png)
+![Users and Roles](Images/CSTAR/Users-and-Roles-1.png)
 
 Select the group to view the members assigned to it. Add more members to the group as required.
 
-![Users and Roles](/Images/CSTAR/Users-and-Roles-2.png)
+![Users and Roles](Images/CSTAR/Users-and-Roles-2.png)
 
 Within each group, assign the appropriate Notify role(s).
 
@@ -33,7 +33,7 @@ Within each group, assign the appropriate Notify role(s).
 - View templates.
 - View notification history/logs.
 
-![Users and Roles](/Images/CSTAR/Users-and-Roles-3.png)
+![Users and Roles](Images/CSTAR/Users-and-Roles-3.png)
 
 
 
@@ -43,7 +43,7 @@ CSTAR is used to manage user access to Notify. Tenant administrators can add use
 
 Use the CSTAR Tenant Users features to add or update users and manage their access to the Notify tenant.
 
-![Administering Users](/Images/CSTAR/Administrative-user.png)
+![Administering Users](Images/CSTAR/Administrative-user.png)
 
 
 
@@ -51,7 +51,7 @@ Use the CSTAR Tenant Users features to add or update users and manage their acce
 
 Select Add on the Notify Service card to connect Notify to the tenant. Once added, Notify will appear under Connected Services, where you can configure the appropriate service roles and group access.
 
-![Adding Service to a Tenant](/Images/CSTAR/Adding-Services-to-a-Tenant.png)
+![Adding Service to a Tenant](Images/CSTAR/Adding-Services-to-a-Tenant.png)
 
 
 
@@ -59,7 +59,7 @@ Select Add on the Notify Service card to connect Notify to the tenant. Once adde
 
 To generate an API key, go to Settings, select Regenerate API Key, and then select Generate new key. Copy and store the API key securely, as it cannot be retrieved again after it is generated.
 
-![Adding an API Key](/Images/CSTAR/Adding-an-API.png)
+![Adding an API Key](Images/CSTAR/Adding-an-API.png)
 
 
 
@@ -67,4 +67,4 @@ To generate an API key, go to Settings, select Regenerate API Key, and then sele
 
 API keys can be managed by you, the provider, allowing you to revoke or regenerate keys as needed. This provides a level of control over access to your API and enables you to respond to security threats or unauthorized access attempts.
 
-![Managing API Keys](/Images/CSTAR/Managing-API-Keys.png)
+![Managing API Keys](Images/CSTAR/Managing-API-Keys.png)
