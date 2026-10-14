@@ -36,6 +36,7 @@ nav:
             - Configuring Services: ./UI/#configuring-services
     - Administration: 
         - Centralised Role administration: ./CSTAR/#administering-users
+        - Users and Roles: ./CSTAR/#users-and-roles
         - Managing API Keys: ./CSTAR/#managing-api-keys
         - Notify UI: 
             - Template management: ./UI/#managing-templates
